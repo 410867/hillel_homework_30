@@ -1,7 +1,6 @@
 import { categoryList } from './CategoryRepository.js';
 import { findByCategory } from './ProductRepository.js';
 
-const shop = document.querySelector('.shop');
 const categories = document.querySelector('.categories');
 const listOfGoods = document.querySelector('.list_of_goods');
 const item = document.querySelector('.item-block');
